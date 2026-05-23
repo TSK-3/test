@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install *)",
+      "Bash(uvicorn app.main:app --reload --port 8000)"
+    ]
+  }
+}

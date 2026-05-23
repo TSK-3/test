@@ -1,0 +1,18 @@
+{
+  "name": "carbonx-backend",
+  "version": "1.0.0",
+  "description": "Backend API for CarbonX marketplace and credits tracking",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^6.10.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
